@@ -401,6 +401,9 @@ function __init__()
         include("pythoncall.jl")
     end
 
+    @require TyPython = "9c4566a2-237d-4c69-9a5e-9d27b7d0881b" begin
+        include("typython.jl")
+    end
 end
 
 
